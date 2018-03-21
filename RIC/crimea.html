@@ -1,0 +1,1507 @@
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<base href="http://www.crimea.vybory.izbirkom.ru/">
+<link href="/css/report.css" rel="stylesheet" type="text/css" />
+<title>Сведения о проводящихся выборах и референдумах</title>
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="0">
+
+<script type="text/javascript">
+	
+	var st1 = null; // переменная, хранящая ссылку на SortableTable, !=null для сортируемых таблиц
+
+	function getXls() {
+		var sortorder = "0";
+		if ((st1 != null)&&(st1.sortDesc != null)) {
+			if (st1.sortDesc) {
+				sortorder = "1";
+			} else {
+				sortorder = "-1";
+			}
+		}
+
+		window.location.assign("http://www.crimea.vybory.izbirkom.ru/servlet/ExcelReportVersion?"+
+								"region=93&"+
+								"sub_region=93&"+
+								"root=1000084&"+
+						
+								"global=1&"+
+								"vrn=100100084849062&"+
+								"tvd=100100084849210&"+
+								"type=227&"+
+								"vibid=100100084849210&"+
+								"condition=&"+
+								"action=show&"+
+								"version=null&"+
+								"prver=0&"+
+								"sortorder="+sortorder);
+	}
+	
+</script>
+
+</head>
+
+<body text="#000000" link="#0000ff" vlink="#0000ff" alink="#ff0000" leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" bottommargin="0">
+
+
+<table cellpadding="0" cellspacing="0" width="100%" border="0">
+	<tr>
+		<td align="center" width="100%">
+			
+		</td>
+	</tr>
+</table>
+
+
+		
+
+
+
+
+
+	
+		<table border="0" cellpadding="0" cellspacing="0" height="218px" width="100%" style="background: url(header/93/krim_fon.jpg) repeat-x scroll 0 0;">
+		<tbody>
+		<tr style="background: url(header/93/krim_left.jpg) no-repeat scroll left 0;">
+		<td style="background: url(header/93/flag_krim.png) no-repeat scroll 0 0;" width="323px">
+		 <a href="http://www.crimea.izbirkom.ru">
+		    <img src="header/93/logo_krim.png"> </a> 
+		</td>
+		<td>
+		    <h4 style="color: #FFFFFF; font-size: 32px; text-transform: uppercase; text-align: center; margin: 0; font-family: 'Times New Roman',Times,serif; font-weight: bold; font-size: 32px; letter-spacing: 3px;">Избирательная комиссия Республики Крым</h4>
+		</td>
+		<td width="323px" style="background: url(header/93/krim_right.jpg) repeat scroll 0 0;">
+		    <img src="header/93/foto_krim.png" />
+		</td>
+		</tr>
+		</tbody>
+		</table>
+        <table border="0" cellpadding="0" cellspacing="0" height="81px" width="100%">
+	    <tbody>				
+		<tr>
+			<td align="center" bgcolor="#0f10a8" height="20" colspan="2">
+				
+
+<nobr>
+	&nbsp;&nbsp; 
+	<a href="http://www.crimea.vybory.izbirkom.ru/region/crimea?action=ik" style="text-decoration: none; color: #FFFFFF">Избирательные комиссии</a>
+	&nbsp;&nbsp;
+</nobr>
+<font color="#ffffff">&nbsp;&nbsp;|&nbsp;&nbsp;</font>
+<nobr>
+	&nbsp;&nbsp;
+	<a href="http://www.crimea.vybory.izbirkom.ru/crimea/ik_r" style="text-decoration: none; color: #FFFFFF">Резерв составов участковых комиссий</a>
+	&nbsp;&nbsp;
+</nobr>
+<font color="#ffffff">&nbsp;&nbsp;|&nbsp;&nbsp;</font>
+
+<nobr>
+	&nbsp;&nbsp; 
+	<a href="http://www.crimea.vybory.izbirkom.ru/region/crimea" style="text-decoration: none; color: #FFFFFF">Выборы и референдумы</a>
+	&nbsp;&nbsp;
+</nobr>
+<font color="#ffffff">&nbsp;&nbsp;|&nbsp;&nbsp;</font>
+
+<nobr>
+	&nbsp;&nbsp;
+	<a href="http://www.crimea.vybory.izbirkom.ru/region/crimea?action=npa" style="text-decoration: none; color: #FFFFFF">Нормативная база</a>
+	&nbsp;&nbsp;
+</nobr>
+
+				
+				<font color="#ffffff">&nbsp;&nbsp;|&nbsp;&nbsp;</font>
+				<nobr>
+					&nbsp;&nbsp;
+					<a href="http://www.crimea.izbirkom.ru/spravochn" style="text-decoration: none;color:#FFFFFF">Справочная информация</a>
+					&nbsp;&nbsp;		
+				</nobr>
+
+				
+
+
+
+				
+
+
+			</td>
+		</tr>
+		
+		
+		
+<tr>
+	<td align="center" height="20" colspan="2">
+		<nobr><a href="http://www.crimea.izbirkom.ru" style="text-decoration: none;color:black">Главная страница</a>	
+	</td>
+</tr>
+
+	</tbody>
+</table>
+
+
+
+
+<table width="100%" cellpadding="0" cellspacing="0" height="80%" style="padding-left: 3px; padding-right: 3px;">
+	
+		<tr valign="top" height="20px">
+			<td width="100%" align="center" height="20px" valign="top"><!-- history -->
+				 &gt; <a href="region/crimea?action=show&root_a=1000084&vrn=100100084849062&region=93&global=1&type=0&sub_region=93&root=1000084&prver=0&pronetvd=null&tvd=100100084849210">Республика Крым</a>
+			</td>
+		</tr>
+	
+		<tr valign="top" height="20px">
+			<td width="100%" align="center" height="20px" valign="top">
+			
+				<form name="go_reg">Нижестоящие избирательные комиссии:  <select name="gs"><option val="">---</option><option value="http://www.crimea.vybory.izbirkom.ru/region/crimea?action=show&amp;global=true&amp;root=932000018&amp;tvd=2932000314686&amp;vrn=100100084849062&amp;prver=0&amp;pronetvd=null&amp;region=93&amp;sub_region=93&amp;type=227&amp;vibid=2932000314686">1 Алуштинская городская</option><option value="http://www.crimea.vybory.izbirkom.ru/region/crimea?action=show&amp;global=true&amp;root=932000020&amp;tvd=2932000314688&amp;vrn=100100084849062&amp;prver=0&amp;pronetvd=null&amp;region=93&amp;sub_region=93&amp;type=227&amp;vibid=2932000314688">2 Армянская городская</option><option value="http://www.crimea.vybory.izbirkom.ru/region/crimea?action=show&amp;global=true&amp;root=932000004&amp;tvd=2932000314672&amp;vrn=100100084849062&amp;prver=0&amp;pronetvd=null&amp;region=93&amp;sub_region=93&amp;type=227&amp;vibid=2932000314672">3 Бахчисарайская</option><option value="http://www.crimea.vybory.izbirkom.ru/region/crimea?action=show&amp;global=true&amp;root=932000011&amp;tvd=2932000314679&amp;vrn=100100084849062&amp;prver=0&amp;pronetvd=null&amp;region=93&amp;sub_region=93&amp;type=227&amp;vibid=2932000314679">4 Белогорская</option><option value="http://www.crimea.vybory.izbirkom.ru/region/crimea?action=show&amp;global=true&amp;root=932000001&amp;tvd=2932000314669&amp;vrn=100100084849062&amp;prver=0&amp;pronetvd=null&amp;region=93&amp;sub_region=93&amp;type=227&amp;vibid=2932000314669">5 Джанкойская городская</option><option value="http://www.crimea.vybory.izbirkom.ru/region/crimea?action=show&amp;global=true&amp;root=932000023&amp;tvd=2932000314691&amp;vrn=100100084849062&amp;prver=0&amp;pronetvd=null&amp;region=93&amp;sub_region=93&amp;type=227&amp;vibid=2932000314691">6 Джанкойская</option><option value="http://www.crimea.vybory.izbirkom.ru/region/crimea?action=show&amp;global=true&amp;root=932000010&amp;tvd=2932000314678&amp;vrn=100100084849062&amp;prver=0&amp;pronetvd=null&amp;region=93&amp;sub_region=93&amp;type=227&amp;vibid=2932000314678">7 Евпаторийская городская</option><option value="http://www.crimea.vybory.izbirkom.ru/region/crimea?action=show&amp;global=true&amp;root=932000003&amp;tvd=2932000314671&amp;vrn=100100084849062&amp;prver=0&amp;pronetvd=null&amp;region=93&amp;sub_region=93&amp;type=227&amp;vibid=2932000314671">8 Керченская городская</option><option value="http://www.crimea.vybory.izbirkom.ru/region/crimea?action=show&amp;global=true&amp;root=932000014&amp;tvd=2932000314682&amp;vrn=100100084849062&amp;prver=0&amp;pronetvd=null&amp;region=93&amp;sub_region=93&amp;type=227&amp;vibid=2932000314682">9 Кировская</option><option value="http://www.crimea.vybory.izbirkom.ru/region/crimea?action=show&amp;global=true&amp;root=932000007&amp;tvd=2932000314675&amp;vrn=100100084849062&amp;prver=0&amp;pronetvd=null&amp;region=93&amp;sub_region=93&amp;type=227&amp;vibid=2932000314675">10 Красногвардейская</option><option value="http://www.crimea.vybory.izbirkom.ru/region/crimea?action=show&amp;global=true&amp;root=932000022&amp;tvd=2932000314690&amp;vrn=100100084849062&amp;prver=0&amp;pronetvd=null&amp;region=93&amp;sub_region=93&amp;type=227&amp;vibid=2932000314690">11 Красноперекопская городская</option><option value="http://www.crimea.vybory.izbirkom.ru/region/crimea?action=show&amp;global=true&amp;root=932000006&amp;tvd=2932000314674&amp;vrn=100100084849062&amp;prver=0&amp;pronetvd=null&amp;region=93&amp;sub_region=93&amp;type=227&amp;vibid=2932000314674">12 Красноперекопская</option><option value="http://www.crimea.vybory.izbirkom.ru/region/crimea?action=show&amp;global=true&amp;root=932000015&amp;tvd=2932000314683&amp;vrn=100100084849062&amp;prver=0&amp;pronetvd=null&amp;region=93&amp;sub_region=93&amp;type=227&amp;vibid=2932000314683">13 Ленинская</option><option value="http://www.crimea.vybory.izbirkom.ru/region/crimea?action=show&amp;global=true&amp;root=932000012&amp;tvd=2932000314680&amp;vrn=100100084849062&amp;prver=0&amp;pronetvd=null&amp;region=93&amp;sub_region=93&amp;type=227&amp;vibid=2932000314680">14 Нижнегорская</option><option value="http://www.crimea.vybory.izbirkom.ru/region/crimea?action=show&amp;global=true&amp;root=932000005&amp;tvd=2932000314673&amp;vrn=100100084849062&amp;prver=0&amp;pronetvd=null&amp;region=93&amp;sub_region=93&amp;type=227&amp;vibid=2932000314673">15 Первомайская</option><option value="http://www.crimea.vybory.izbirkom.ru/region/crimea?action=show&amp;global=true&amp;root=932000013&amp;tvd=2932000314681&amp;vrn=100100084849062&amp;prver=0&amp;pronetvd=null&amp;region=93&amp;sub_region=93&amp;type=227&amp;vibid=2932000314681">16 Раздольненская</option><option value="http://www.crimea.vybory.izbirkom.ru/region/crimea?action=show&amp;global=true&amp;root=932000008&amp;tvd=2932000314676&amp;vrn=100100084849062&amp;prver=0&amp;pronetvd=null&amp;region=93&amp;sub_region=93&amp;type=227&amp;vibid=2932000314676">17 Сакская городская</option><option value="http://www.crimea.vybory.izbirkom.ru/region/crimea?action=show&amp;global=true&amp;root=932000009&amp;tvd=2932000314677&amp;vrn=100100084849062&amp;prver=0&amp;pronetvd=null&amp;region=93&amp;sub_region=93&amp;type=227&amp;vibid=2932000314677">18 Сакская</option><option value="http://www.crimea.vybory.izbirkom.ru/region/crimea?action=show&amp;global=true&amp;root=932000025&amp;tvd=2932000314835&amp;vrn=100100084849062&amp;prver=0&amp;pronetvd=null&amp;region=93&amp;sub_region=93&amp;type=227&amp;vibid=2932000314835">19 Симферополь, Железнодорожная</option><option value="http://www.crimea.vybory.izbirkom.ru/region/crimea?action=show&amp;global=true&amp;root=932000026&amp;tvd=2932000314836&amp;vrn=100100084849062&amp;prver=0&amp;pronetvd=null&amp;region=93&amp;sub_region=93&amp;type=227&amp;vibid=2932000314836">20 Симферополь, Киевская</option><option value="http://www.crimea.vybory.izbirkom.ru/region/crimea?action=show&amp;global=true&amp;root=932000027&amp;tvd=2932000314837&amp;vrn=100100084849062&amp;prver=0&amp;pronetvd=null&amp;region=93&amp;sub_region=93&amp;type=227&amp;vibid=2932000314837">21 Симферополь, Центральная</option><option value="http://www.crimea.vybory.izbirkom.ru/region/crimea?action=show&amp;global=true&amp;root=932000017&amp;tvd=2932000314685&amp;vrn=100100084849062&amp;prver=0&amp;pronetvd=null&amp;region=93&amp;sub_region=93&amp;type=227&amp;vibid=2932000314685">22 Симферопольская</option><option value="http://www.crimea.vybory.izbirkom.ru/region/crimea?action=show&amp;global=true&amp;root=932000016&amp;tvd=2932000314684&amp;vrn=100100084849062&amp;prver=0&amp;pronetvd=null&amp;region=93&amp;sub_region=93&amp;type=227&amp;vibid=2932000314684">23 Советская</option><option value="http://www.crimea.vybory.izbirkom.ru/region/crimea?action=show&amp;global=true&amp;root=932000021&amp;tvd=2932000314689&amp;vrn=100100084849062&amp;prver=0&amp;pronetvd=null&amp;region=93&amp;sub_region=93&amp;type=227&amp;vibid=2932000314689">24 Судакская городская</option><option value="http://www.crimea.vybory.izbirkom.ru/region/crimea?action=show&amp;global=true&amp;root=932000019&amp;tvd=2932000314687&amp;vrn=100100084849062&amp;prver=0&amp;pronetvd=null&amp;region=93&amp;sub_region=93&amp;type=227&amp;vibid=2932000314687">25 Феодосийская городская</option><option value="http://www.crimea.vybory.izbirkom.ru/region/crimea?action=show&amp;global=true&amp;root=932000002&amp;tvd=2932000314670&amp;vrn=100100084849062&amp;prver=0&amp;pronetvd=null&amp;region=93&amp;sub_region=93&amp;type=227&amp;vibid=2932000314670">26 Черноморская</option><option value="http://www.crimea.vybory.izbirkom.ru/region/crimea?action=show&amp;global=true&amp;root=932000024&amp;tvd=2932000314692&amp;vrn=100100084849062&amp;prver=0&amp;pronetvd=null&amp;region=93&amp;sub_region=93&amp;type=227&amp;vibid=2932000314692">27 Ялтинская городская</option></select>  <input type="Button" name="go" value="Перейти" onClick="if(this.form.gs.value!='' && this.form.gs.value!='---')self.location=this.form.gs.value"></form>
+
+			
+			</td>
+		</tr>
+	
+		<tr valign="top" align="left">
+			<td >
+				<a href="javascript:getXls();">Версия для печати</a>
+				<br><br>
+			</td>
+		</tr>
+	
+	<tr valign="top" height="100%">
+		<td valign="top" height="100%">
+			<link href="css/227.css" rel="stylesheet" type="text/css"><script type="text/javascript" src="js/sorter.js"></script><table border="0" cellpadding="3" width="100%" cellspacing="1" bgcolor="white">
+<tr class="w2">
+<td bgcolor="#555555" class="headers" align="center"><b>Сводная таблица предварительных итогов голосования</b></td>
+</tr>
+<tr class="w2">
+<td bgcolor="#555555" class="headers" align="center"><b>Выборы Президента Российской Федерации</b></td>
+</tr>
+</table><table width="100%">
+<tr>
+<td align="center">
+					Дата голосования:&nbsp; 18.03.2018</td>
+</tr>
+</table><table border="0" cellpadding="5" cellspacing="1" width="100%" bgcolor="ffffff">
+<tr style="padding:0;border-spacing:0;height:2px;">
+<td background="img/e.gif" colspan="2" style="padding:0;border-spacing:0;height:2px;"></td>
+</tr>
+<tr bgcolor="eeeeee">
+<td valign="top" width="45%"><b>Наименование избирательной комиссии</b></td><td>Республика Крым</td>
+</tr>
+<tr style="padding:0;border-spacing:0;height:2px;">
+<td background="img/e.gif" colspan="2" style="padding:0;border-spacing:0;height:2px;"></td>
+</tr>
+</table><table border="0" cellpadding="3" width="100%" cellspacing="1" bgcolor="white">
+<tr bgcolor="#FFFFFF">
+<td style="color:black"><font style="color:black">Число территориальных избирательных комиссий -
+	                   		<b>27</b></font>
+<br>
+<font style="color:black">Число территориальных избирательных комиссий, приступивших к передаче сведений -
+	                   		<b>27</b></font>
+<br>
+</td>
+</tr>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" height="20px" bgcolor="white">
+<tr class="w2">
+<td bgcolor="#555555" class="headers" align="left">
+					&nbsp;Сводная таблица предварительных итогов голосования</td><td bgcolor="#555555" class="headers" align="right">	
+                	&nbsp;
+                </td>
+</tr>
+</table><table style="width:100%;border-color:#000000" vspace="0" cellpadding="0" cellspacing="0" border="1px">
+<tr style="height:100%" valign="top" align="left">
+<td style="height:100%;" valign="top" align="left">
+<table border="0" bgcolor="#ffffff" cellpadding="2" cellspacing="1" align="left" vspace="0">
+<tr bgcolor="#FFFFFF">
+<td style="color:black" align="center" width="200" colspan="2"></td><td style="color:black" align="center"><nobr><b>Сумма</b></nobr></td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td width="5%" style="color:black"><nobr>1</nobr></td><td style="color:black" align="left" width="50"><nobr>Число избирателей, включенных в список избирателей </nobr></td><td align="right" style="color:black"><nobr><b>1508701</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="5%" style="color:black"><nobr>2</nobr></td><td style="color:black" align="left" width="50"><nobr>Число избирательных бюллетеней, полученных участковой избирательной комиссией</nobr></td><td align="right" style="color:black"><nobr><b>1309349</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td width="5%" style="color:black"><nobr>3</nobr></td><td style="color:black" align="left" width="50"><nobr>Число избирательных бюллетеней, выданных избирателям, проголосовавшим досрочно</nobr></td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="5%" style="color:black"><nobr>4</nobr></td><td style="color:black" align="left" width="50"><nobr>Число избирательных бюллетеней, выданных в помещении для голосования в день голосования</nobr></td><td align="right" style="color:black"><nobr><b>1024311</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td width="5%" style="color:black"><nobr>5</nobr></td><td style="color:black" align="left" width="50"><nobr>Число избирательных бюллетеней, выданных вне помещения для голосования в день голосования</nobr></td><td align="right" style="color:black"><nobr><b>55220</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="5%" style="color:black"><nobr>6</nobr></td><td style="color:black" align="left" width="50"><nobr>Число погашенных избирательных бюллетеней</nobr></td><td align="right" style="color:black"><nobr><b>229816</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td width="5%" style="color:black"><nobr>7</nobr></td><td style="color:black" align="left" width="50"><nobr>Число избирательных бюллетеней в переносных ящиках для голосования</nobr></td><td align="right" style="color:black"><nobr><b>55218</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="5%" style="color:black"><nobr>8</nobr></td><td style="color:black" align="left" width="50"><nobr>Число бюллетеней в стационарных ящиках для голосования</nobr></td><td align="right" style="color:black"><nobr><b>1024077</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td width="5%" style="color:black"><nobr>9</nobr></td><td style="color:black" align="left" width="50"><nobr>Число недействительных избирательных бюллетеней</nobr></td><td align="right" style="color:black"><nobr><b>11395</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="5%" style="color:black"><nobr>10</nobr></td><td style="color:black" align="left" width="50"><nobr>Число действительных избирательных бюллетеней</nobr></td><td align="right" style="color:black"><nobr><b>1067900</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td width="5%" style="color:black"><nobr>11</nobr></td><td style="color:black" align="left" width="50"><nobr>Число утраченных избирательных бюллетеней</nobr></td><td align="right" style="color:black"><nobr><b>2</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="5%" style="color:black"><nobr>12</nobr></td><td style="color:black" align="left" width="50"><nobr>Число избирательных бюллетеней, не учтенных при получении </nobr></td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td style="color:black"></td><td style="color:black" colspan="2"><nobr><b>&nbsp;</b></nobr></td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="5%" style="color:black"><nobr>13</nobr></td><td style="color:black" align="left" width="50"><nobr>Бабурин Сергей Николаевич</nobr></td><td align="right" style="color:black"><nobr><b>2098</b></nobr>
+<br>0.19%
+	                                                </td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td width="5%" style="color:black"><nobr>14</nobr></td><td style="color:black" align="left" width="50"><nobr>Грудинин Павел Николаевич</nobr></td><td align="right" style="color:black"><nobr><b>23773</b></nobr>
+<br>2.20%
+	                                                </td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="5%" style="color:black"><nobr>15</nobr></td><td style="color:black" align="left" width="50"><nobr>Жириновский Владимир Вольфович</nobr></td><td align="right" style="color:black"><nobr><b>19506</b></nobr>
+<br>1.81%
+	                                                </td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td width="5%" style="color:black"><nobr>16</nobr></td><td style="color:black" align="left" width="50"><nobr>Путин Владимир Владимирович</nobr></td><td align="right" style="color:black"><nobr><b>994569</b></nobr>
+<br>92.15%
+	                                                </td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="5%" style="color:black"><nobr>17</nobr></td><td style="color:black" align="left" width="50"><nobr>Собчак Ксения Анатольевна</nobr></td><td align="right" style="color:black"><nobr><b>17764</b></nobr>
+<br>1.65%
+	                                                </td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td width="5%" style="color:black"><nobr>18</nobr></td><td style="color:black" align="left" width="50"><nobr>Сурайкин Максим Александрович</nobr></td><td align="right" style="color:black"><nobr><b>2267</b></nobr>
+<br>0.21%
+	                                                </td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="5%" style="color:black"><nobr>19</nobr></td><td style="color:black" align="left" width="50"><nobr>Титов Борис Юрьевич</nobr></td><td align="right" style="color:black"><nobr><b>2785</b></nobr>
+<br>0.26%
+	                                                </td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td width="5%" style="color:black"><nobr>20</nobr></td><td style="color:black" align="left" width="50"><nobr>Явлинский Григорий Алексеевич</nobr></td><td align="right" style="color:black"><nobr><b>5138</b></nobr>
+<br>0.48%
+	                                                </td>
+</tr>
+</table>
+</td><td width="90%"><div style="width:100%; bgcolor:white;overflow:scroll"><table border="0" bgcolor="#ffffff" cellpadding="2" cellspacing="1" style="width:100%;overflow:scroll" vspace="0" align="left">
+<tr bgcolor="#FFFFFF" valign="top">
+<td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.crimea.vybory.izbirkom.ru/region/region/crimea?action=show&amp;tvd=100100084849210&amp;vrn=100100084849062&amp;region=93&amp;global=1&amp;sub_region=93&amp;prver=0&amp;pronetvd=null&amp;vibid=2932000314686&amp;type=227">Алуштинская городская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.crimea.vybory.izbirkom.ru/region/region/crimea?action=show&amp;tvd=100100084849210&amp;vrn=100100084849062&amp;region=93&amp;global=1&amp;sub_region=93&amp;prver=0&amp;pronetvd=null&amp;vibid=2932000314688&amp;type=227">Армянская городская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.crimea.vybory.izbirkom.ru/region/region/crimea?action=show&amp;tvd=100100084849210&amp;vrn=100100084849062&amp;region=93&amp;global=1&amp;sub_region=93&amp;prver=0&amp;pronetvd=null&amp;vibid=2932000314672&amp;type=227">Бахчисарайская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.crimea.vybory.izbirkom.ru/region/region/crimea?action=show&amp;tvd=100100084849210&amp;vrn=100100084849062&amp;region=93&amp;global=1&amp;sub_region=93&amp;prver=0&amp;pronetvd=null&amp;vibid=2932000314679&amp;type=227">Белогорская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.crimea.vybory.izbirkom.ru/region/region/crimea?action=show&amp;tvd=100100084849210&amp;vrn=100100084849062&amp;region=93&amp;global=1&amp;sub_region=93&amp;prver=0&amp;pronetvd=null&amp;vibid=2932000314669&amp;type=227">Джанкойская городская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.crimea.vybory.izbirkom.ru/region/region/crimea?action=show&amp;tvd=100100084849210&amp;vrn=100100084849062&amp;region=93&amp;global=1&amp;sub_region=93&amp;prver=0&amp;pronetvd=null&amp;vibid=2932000314691&amp;type=227">Джанкойская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.crimea.vybory.izbirkom.ru/region/region/crimea?action=show&amp;tvd=100100084849210&amp;vrn=100100084849062&amp;region=93&amp;global=1&amp;sub_region=93&amp;prver=0&amp;pronetvd=null&amp;vibid=2932000314678&amp;type=227">Евпаторийская городская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.crimea.vybory.izbirkom.ru/region/region/crimea?action=show&amp;tvd=100100084849210&amp;vrn=100100084849062&amp;region=93&amp;global=1&amp;sub_region=93&amp;prver=0&amp;pronetvd=null&amp;vibid=2932000314671&amp;type=227">Керченская городская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.crimea.vybory.izbirkom.ru/region/region/crimea?action=show&amp;tvd=100100084849210&amp;vrn=100100084849062&amp;region=93&amp;global=1&amp;sub_region=93&amp;prver=0&amp;pronetvd=null&amp;vibid=2932000314682&amp;type=227">Кировская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.crimea.vybory.izbirkom.ru/region/region/crimea?action=show&amp;tvd=100100084849210&amp;vrn=100100084849062&amp;region=93&amp;global=1&amp;sub_region=93&amp;prver=0&amp;pronetvd=null&amp;vibid=2932000314675&amp;type=227">Красногвардейская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.crimea.vybory.izbirkom.ru/region/region/crimea?action=show&amp;tvd=100100084849210&amp;vrn=100100084849062&amp;region=93&amp;global=1&amp;sub_region=93&amp;prver=0&amp;pronetvd=null&amp;vibid=2932000314690&amp;type=227">Красноперекопская городская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.crimea.vybory.izbirkom.ru/region/region/crimea?action=show&amp;tvd=100100084849210&amp;vrn=100100084849062&amp;region=93&amp;global=1&amp;sub_region=93&amp;prver=0&amp;pronetvd=null&amp;vibid=2932000314674&amp;type=227">Красноперекопская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.crimea.vybory.izbirkom.ru/region/region/crimea?action=show&amp;tvd=100100084849210&amp;vrn=100100084849062&amp;region=93&amp;global=1&amp;sub_region=93&amp;prver=0&amp;pronetvd=null&amp;vibid=2932000314683&amp;type=227">Ленинская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.crimea.vybory.izbirkom.ru/region/region/crimea?action=show&amp;tvd=100100084849210&amp;vrn=100100084849062&amp;region=93&amp;global=1&amp;sub_region=93&amp;prver=0&amp;pronetvd=null&amp;vibid=2932000314680&amp;type=227">Нижнегорская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.crimea.vybory.izbirkom.ru/region/region/crimea?action=show&amp;tvd=100100084849210&amp;vrn=100100084849062&amp;region=93&amp;global=1&amp;sub_region=93&amp;prver=0&amp;pronetvd=null&amp;vibid=2932000314673&amp;type=227">Первомайская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.crimea.vybory.izbirkom.ru/region/region/crimea?action=show&amp;tvd=100100084849210&amp;vrn=100100084849062&amp;region=93&amp;global=1&amp;sub_region=93&amp;prver=0&amp;pronetvd=null&amp;vibid=2932000314681&amp;type=227">Раздольненская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.crimea.vybory.izbirkom.ru/region/region/crimea?action=show&amp;tvd=100100084849210&amp;vrn=100100084849062&amp;region=93&amp;global=1&amp;sub_region=93&amp;prver=0&amp;pronetvd=null&amp;vibid=2932000314676&amp;type=227">Сакская городская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.crimea.vybory.izbirkom.ru/region/region/crimea?action=show&amp;tvd=100100084849210&amp;vrn=100100084849062&amp;region=93&amp;global=1&amp;sub_region=93&amp;prver=0&amp;pronetvd=null&amp;vibid=2932000314677&amp;type=227">Сакская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.crimea.vybory.izbirkom.ru/region/region/crimea?action=show&amp;tvd=100100084849210&amp;vrn=100100084849062&amp;region=93&amp;global=1&amp;sub_region=93&amp;prver=0&amp;pronetvd=null&amp;vibid=2932000314835&amp;type=227">Симферополь, Железнодорожная</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.crimea.vybory.izbirkom.ru/region/region/crimea?action=show&amp;tvd=100100084849210&amp;vrn=100100084849062&amp;region=93&amp;global=1&amp;sub_region=93&amp;prver=0&amp;pronetvd=null&amp;vibid=2932000314836&amp;type=227">Симферополь, Киевская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.crimea.vybory.izbirkom.ru/region/region/crimea?action=show&amp;tvd=100100084849210&amp;vrn=100100084849062&amp;region=93&amp;global=1&amp;sub_region=93&amp;prver=0&amp;pronetvd=null&amp;vibid=2932000314837&amp;type=227">Симферополь, Центральная</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.crimea.vybory.izbirkom.ru/region/region/crimea?action=show&amp;tvd=100100084849210&amp;vrn=100100084849062&amp;region=93&amp;global=1&amp;sub_region=93&amp;prver=0&amp;pronetvd=null&amp;vibid=2932000314685&amp;type=227">Симферопольская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.crimea.vybory.izbirkom.ru/region/region/crimea?action=show&amp;tvd=100100084849210&amp;vrn=100100084849062&amp;region=93&amp;global=1&amp;sub_region=93&amp;prver=0&amp;pronetvd=null&amp;vibid=2932000314684&amp;type=227">Советская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.crimea.vybory.izbirkom.ru/region/region/crimea?action=show&amp;tvd=100100084849210&amp;vrn=100100084849062&amp;region=93&amp;global=1&amp;sub_region=93&amp;prver=0&amp;pronetvd=null&amp;vibid=2932000314689&amp;type=227">Судакская городская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.crimea.vybory.izbirkom.ru/region/region/crimea?action=show&amp;tvd=100100084849210&amp;vrn=100100084849062&amp;region=93&amp;global=1&amp;sub_region=93&amp;prver=0&amp;pronetvd=null&amp;vibid=2932000314687&amp;type=227">Феодосийская городская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.crimea.vybory.izbirkom.ru/region/region/crimea?action=show&amp;tvd=100100084849210&amp;vrn=100100084849062&amp;region=93&amp;global=1&amp;sub_region=93&amp;prver=0&amp;pronetvd=null&amp;vibid=2932000314670&amp;type=227">Черноморская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.crimea.vybory.izbirkom.ru/region/region/crimea?action=show&amp;tvd=100100084849210&amp;vrn=100100084849062&amp;region=93&amp;global=1&amp;sub_region=93&amp;prver=0&amp;pronetvd=null&amp;vibid=2932000314692&amp;type=227">Ялтинская городская</a></nobr></td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td align="right" style="color:black"><nobr><b>42819</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>20207</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>74298</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>48425</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>34068</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>53307</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>87632</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>111164</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>40267</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>65235</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>21757</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>21224</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>47816</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>36654</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>24363</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>25021</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>21731</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>60973</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>76631</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>122994</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>84534</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>121876</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>25416</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>24689</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>82003</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>25376</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>108221</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td align="right" style="color:black"><nobr><b>38462</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>17660</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>64920</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>41480</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>29370</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>46310</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>73250</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>96800</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>35962</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>57110</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>19060</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>18980</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>39917</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>33350</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>21740</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>22980</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>18310</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>52780</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>65240</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>106314</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>72270</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>106285</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>23300</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>21860</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>70743</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>23040</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>91856</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td align="right" style="color:black"><nobr><b>31930</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>13000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>44905</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>28291</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>22030</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>36420</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>57630</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>73703</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>24322</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>49217</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>15968</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>14430</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>31329</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>26973</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>18529</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>18797</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>14803</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>44036</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>52922</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>85357</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>57627</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>84640</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>17410</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>18780</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>54962</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>19446</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>66854</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td align="right" style="color:black"><nobr><b>1572</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>609</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2977</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2350</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1228</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>3232</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2532</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>3489</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1826</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>3193</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>644</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1362</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2295</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>3284</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1260</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1239</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>694</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2556</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1538</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>3070</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1660</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>4325</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1259</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>817</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2786</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1067</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2356</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td align="right" style="color:black"><nobr><b>4960</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>4051</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>17038</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>10839</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>6112</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>6658</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>13088</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>19608</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>9814</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>4700</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2448</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>3188</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>6293</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>3093</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1951</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2944</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2813</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>6188</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>10780</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>17887</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>12981</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>17320</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>4631</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2263</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>12995</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2527</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>22646</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td align="right" style="color:black"><nobr><b>1572</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>609</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2977</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2350</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1228</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>3232</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2532</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>3489</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1826</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>3193</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>644</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1362</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2295</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>3284</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1260</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1239</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>694</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2556</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1538</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>3070</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1659</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>4325</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1259</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>817</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2785</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1067</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2356</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td align="right" style="color:black"><nobr><b>31929</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>13000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>44905</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>28291</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>22030</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>36418</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>57630</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>73697</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>24322</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>49214</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>15968</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>14430</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>31325</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>26970</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>18529</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>18797</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>14801</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>44033</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>52918</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>85349</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>57565</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>84639</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>17330</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>18780</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>54961</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>19446</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>66800</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td align="right" style="color:black"><nobr><b>447</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>249</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>592</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>490</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>205</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>477</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>572</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>661</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>349</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>779</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>170</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>190</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>387</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>321</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>229</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>259</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>149</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>596</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>504</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>578</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>410</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>752</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>272</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>296</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>480</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>259</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>722</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td align="right" style="color:black"><nobr><b>33054</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>13360</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>47290</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>30151</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>23053</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>39173</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>59590</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>76525</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>25799</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>51628</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>16442</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>15602</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>33233</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>29933</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>19560</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>19777</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>15346</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>45993</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>53952</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>87841</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>58814</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>88212</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>18317</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>19301</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>57266</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>20254</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>68434</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td style="color:black">
+<br>
+</td><td style="color:black" colspan="2">
+<br>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td align="right" style="color:black"><nobr><b>88</b></nobr>
+<br>0.26%
+												</td><td align="right" style="color:black"><nobr><b>26</b></nobr>
+<br>0.19%
+												</td><td align="right" style="color:black"><nobr><b>96</b></nobr>
+<br>0.20%
+												</td><td align="right" style="color:black"><nobr><b>96</b></nobr>
+<br>0.31%
+												</td><td align="right" style="color:black"><nobr><b>23</b></nobr>
+<br>0.10%
+												</td><td align="right" style="color:black"><nobr><b>100</b></nobr>
+<br>0.25%
+												</td><td align="right" style="color:black"><nobr><b>125</b></nobr>
+<br>0.21%
+												</td><td align="right" style="color:black"><nobr><b>132</b></nobr>
+<br>0.17%
+												</td><td align="right" style="color:black"><nobr><b>56</b></nobr>
+<br>0.21%
+												</td><td align="right" style="color:black"><nobr><b>97</b></nobr>
+<br>0.19%
+												</td><td align="right" style="color:black"><nobr><b>41</b></nobr>
+<br>0.25%
+												</td><td align="right" style="color:black"><nobr><b>34</b></nobr>
+<br>0.22%
+												</td><td align="right" style="color:black"><nobr><b>53</b></nobr>
+<br>0.16%
+												</td><td align="right" style="color:black"><nobr><b>56</b></nobr>
+<br>0.19%
+												</td><td align="right" style="color:black"><nobr><b>35</b></nobr>
+<br>0.18%
+												</td><td align="right" style="color:black"><nobr><b>36</b></nobr>
+<br>0.18%
+												</td><td align="right" style="color:black"><nobr><b>22</b></nobr>
+<br>0.14%
+												</td><td align="right" style="color:black"><nobr><b>85</b></nobr>
+<br>0.18%
+												</td><td align="right" style="color:black"><nobr><b>100</b></nobr>
+<br>0.18%
+												</td><td align="right" style="color:black"><nobr><b>146</b></nobr>
+<br>0.17%
+												</td><td align="right" style="color:black"><nobr><b>97</b></nobr>
+<br>0.16%
+												</td><td align="right" style="color:black"><nobr><b>140</b></nobr>
+<br>0.16%
+												</td><td align="right" style="color:black"><nobr><b>45</b></nobr>
+<br>0.24%
+												</td><td align="right" style="color:black"><nobr><b>41</b></nobr>
+<br>0.21%
+												</td><td align="right" style="color:black"><nobr><b>129</b></nobr>
+<br>0.22%
+												</td><td align="right" style="color:black"><nobr><b>29</b></nobr>
+<br>0.14%
+												</td><td align="right" style="color:black"><nobr><b>170</b></nobr>
+<br>0.25%
+												</td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td align="right" style="color:black"><nobr><b>837</b></nobr>
+<br>2.50%
+												</td><td align="right" style="color:black"><nobr><b>332</b></nobr>
+<br>2.44%
+												</td><td align="right" style="color:black"><nobr><b>1027</b></nobr>
+<br>2.14%
+												</td><td align="right" style="color:black"><nobr><b>650</b></nobr>
+<br>2.12%
+												</td><td align="right" style="color:black"><nobr><b>413</b></nobr>
+<br>1.78%
+												</td><td align="right" style="color:black"><nobr><b>708</b></nobr>
+<br>1.79%
+												</td><td align="right" style="color:black"><nobr><b>1511</b></nobr>
+<br>2.51%
+												</td><td align="right" style="color:black"><nobr><b>2016</b></nobr>
+<br>2.61%
+												</td><td align="right" style="color:black"><nobr><b>583</b></nobr>
+<br>2.23%
+												</td><td align="right" style="color:black"><nobr><b>1041</b></nobr>
+<br>1.99%
+												</td><td align="right" style="color:black"><nobr><b>314</b></nobr>
+<br>1.89%
+												</td><td align="right" style="color:black"><nobr><b>326</b></nobr>
+<br>2.06%
+												</td><td align="right" style="color:black"><nobr><b>762</b></nobr>
+<br>2.27%
+												</td><td align="right" style="color:black"><nobr><b>528</b></nobr>
+<br>1.75%
+												</td><td align="right" style="color:black"><nobr><b>336</b></nobr>
+<br>1.70%
+												</td><td align="right" style="color:black"><nobr><b>444</b></nobr>
+<br>2.22%
+												</td><td align="right" style="color:black"><nobr><b>384</b></nobr>
+<br>2.48%
+												</td><td align="right" style="color:black"><nobr><b>984</b></nobr>
+<br>2.11%
+												</td><td align="right" style="color:black"><nobr><b>1195</b></nobr>
+<br>2.19%
+												</td><td align="right" style="color:black"><nobr><b>1821</b></nobr>
+<br>2.06%
+												</td><td align="right" style="color:black"><nobr><b>1100</b></nobr>
+<br>1.86%
+												</td><td align="right" style="color:black"><nobr><b>1605</b></nobr>
+<br>1.80%
+												</td><td align="right" style="color:black"><nobr><b>375</b></nobr>
+<br>2.02%
+												</td><td align="right" style="color:black"><nobr><b>501</b></nobr>
+<br>2.56%
+												</td><td align="right" style="color:black"><nobr><b>1498</b></nobr>
+<br>2.59%
+												</td><td align="right" style="color:black"><nobr><b>413</b></nobr>
+<br>2.01%
+												</td><td align="right" style="color:black"><nobr><b>2069</b></nobr>
+<br>2.99%
+												</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td align="right" style="color:black"><nobr><b>653</b></nobr>
+<br>1.95%
+												</td><td align="right" style="color:black"><nobr><b>294</b></nobr>
+<br>2.16%
+												</td><td align="right" style="color:black"><nobr><b>692</b></nobr>
+<br>1.45%
+												</td><td align="right" style="color:black"><nobr><b>416</b></nobr>
+<br>1.36%
+												</td><td align="right" style="color:black"><nobr><b>448</b></nobr>
+<br>1.93%
+												</td><td align="right" style="color:black"><nobr><b>497</b></nobr>
+<br>1.25%
+												</td><td align="right" style="color:black"><nobr><b>1197</b></nobr>
+<br>1.99%
+												</td><td align="right" style="color:black"><nobr><b>1890</b></nobr>
+<br>2.45%
+												</td><td align="right" style="color:black"><nobr><b>352</b></nobr>
+<br>1.35%
+												</td><td align="right" style="color:black"><nobr><b>899</b></nobr>
+<br>1.72%
+												</td><td align="right" style="color:black"><nobr><b>280</b></nobr>
+<br>1.69%
+												</td><td align="right" style="color:black"><nobr><b>294</b></nobr>
+<br>1.86%
+												</td><td align="right" style="color:black"><nobr><b>557</b></nobr>
+<br>1.66%
+												</td><td align="right" style="color:black"><nobr><b>432</b></nobr>
+<br>1.43%
+												</td><td align="right" style="color:black"><nobr><b>262</b></nobr>
+<br>1.32%
+												</td><td align="right" style="color:black"><nobr><b>248</b></nobr>
+<br>1.24%
+												</td><td align="right" style="color:black"><nobr><b>288</b></nobr>
+<br>1.86%
+												</td><td align="right" style="color:black"><nobr><b>619</b></nobr>
+<br>1.33%
+												</td><td align="right" style="color:black"><nobr><b>1170</b></nobr>
+<br>2.15%
+												</td><td align="right" style="color:black"><nobr><b>1507</b></nobr>
+<br>1.70%
+												</td><td align="right" style="color:black"><nobr><b>1028</b></nobr>
+<br>1.74%
+												</td><td align="right" style="color:black"><nobr><b>1374</b></nobr>
+<br>1.54%
+												</td><td align="right" style="color:black"><nobr><b>233</b></nobr>
+<br>1.25%
+												</td><td align="right" style="color:black"><nobr><b>326</b></nobr>
+<br>1.66%
+												</td><td align="right" style="color:black"><nobr><b>1347</b></nobr>
+<br>2.33%
+												</td><td align="right" style="color:black"><nobr><b>397</b></nobr>
+<br>1.94%
+												</td><td align="right" style="color:black"><nobr><b>1806</b></nobr>
+<br>2.61%
+												</td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td align="right" style="color:black"><nobr><b>30531</b></nobr>
+<br>91.13%
+												</td><td align="right" style="color:black"><nobr><b>12387</b></nobr>
+<br>91.02%
+												</td><td align="right" style="color:black"><nobr><b>43891</b></nobr>
+<br>91.66%
+												</td><td align="right" style="color:black"><nobr><b>27867</b></nobr>
+<br>90.95%
+												</td><td align="right" style="color:black"><nobr><b>21764</b></nobr>
+<br>93.58%
+												</td><td align="right" style="color:black"><nobr><b>36545</b></nobr>
+<br>92.17%
+												</td><td align="right" style="color:black"><nobr><b>55372</b></nobr>
+<br>92.04%
+												</td><td align="right" style="color:black"><nobr><b>71209</b></nobr>
+<br>92.26%
+												</td><td align="right" style="color:black"><nobr><b>23866</b></nobr>
+<br>91.27%
+												</td><td align="right" style="color:black"><nobr><b>48263</b></nobr>
+<br>92.09%
+												</td><td align="right" style="color:black"><nobr><b>15426</b></nobr>
+<br>92.86%
+												</td><td align="right" style="color:black"><nobr><b>14460</b></nobr>
+<br>91.57%
+												</td><td align="right" style="color:black"><nobr><b>30960</b></nobr>
+<br>92.09%
+												</td><td align="right" style="color:black"><nobr><b>27957</b></nobr>
+<br>92.41%
+												</td><td align="right" style="color:black"><nobr><b>18390</b></nobr>
+<br>92.93%
+												</td><td align="right" style="color:black"><nobr><b>18527</b></nobr>
+<br>92.47%
+												</td><td align="right" style="color:black"><nobr><b>14289</b></nobr>
+<br>92.22%
+												</td><td align="right" style="color:black"><nobr><b>42975</b></nobr>
+<br>92.24%
+												</td><td align="right" style="color:black"><nobr><b>50173</b></nobr>
+<br>92.13%
+												</td><td align="right" style="color:black"><nobr><b>82331</b></nobr>
+<br>93.11%
+												</td><td align="right" style="color:black"><nobr><b>55341</b></nobr>
+<br>93.44%
+												</td><td align="right" style="color:black"><nobr><b>82851</b></nobr>
+<br>93.13%
+												</td><td align="right" style="color:black"><nobr><b>17079</b></nobr>
+<br>91.88%
+												</td><td align="right" style="color:black"><nobr><b>17808</b></nobr>
+<br>90.87%
+												</td><td align="right" style="color:black"><nobr><b>53261</b></nobr>
+<br>92.23%
+												</td><td align="right" style="color:black"><nobr><b>18743</b></nobr>
+<br>91.37%
+												</td><td align="right" style="color:black"><nobr><b>62303</b></nobr>
+<br>90.09%
+												</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td align="right" style="color:black"><nobr><b>567</b></nobr>
+<br>1.69%
+												</td><td align="right" style="color:black"><nobr><b>191</b></nobr>
+<br>1.40%
+												</td><td align="right" style="color:black"><nobr><b>1045</b></nobr>
+<br>2.18%
+												</td><td align="right" style="color:black"><nobr><b>804</b></nobr>
+<br>2.62%
+												</td><td align="right" style="color:black"><nobr><b>250</b></nobr>
+<br>1.07%
+												</td><td align="right" style="color:black"><nobr><b>927</b></nobr>
+<br>2.34%
+												</td><td align="right" style="color:black"><nobr><b>827</b></nobr>
+<br>1.37%
+												</td><td align="right" style="color:black"><nobr><b>682</b></nobr>
+<br>0.88%
+												</td><td align="right" style="color:black"><nobr><b>645</b></nobr>
+<br>2.47%
+												</td><td align="right" style="color:black"><nobr><b>877</b></nobr>
+<br>1.67%
+												</td><td align="right" style="color:black"><nobr><b>217</b></nobr>
+<br>1.31%
+												</td><td align="right" style="color:black"><nobr><b>336</b></nobr>
+<br>2.13%
+												</td><td align="right" style="color:black"><nobr><b>594</b></nobr>
+<br>1.77%
+												</td><td align="right" style="color:black"><nobr><b>632</b></nobr>
+<br>2.09%
+												</td><td align="right" style="color:black"><nobr><b>386</b></nobr>
+<br>1.95%
+												</td><td align="right" style="color:black"><nobr><b>384</b></nobr>
+<br>1.92%
+												</td><td align="right" style="color:black"><nobr><b>194</b></nobr>
+<br>1.25%
+												</td><td align="right" style="color:black"><nobr><b>856</b></nobr>
+<br>1.84%
+												</td><td align="right" style="color:black"><nobr><b>827</b></nobr>
+<br>1.52%
+												</td><td align="right" style="color:black"><nobr><b>1199</b></nobr>
+<br>1.36%
+												</td><td align="right" style="color:black"><nobr><b>775</b></nobr>
+<br>1.31%
+												</td><td align="right" style="color:black"><nobr><b>1523</b></nobr>
+<br>1.71%
+												</td><td align="right" style="color:black"><nobr><b>405</b></nobr>
+<br>2.18%
+												</td><td align="right" style="color:black"><nobr><b>384</b></nobr>
+<br>1.96%
+												</td><td align="right" style="color:black"><nobr><b>566</b></nobr>
+<br>0.98%
+												</td><td align="right" style="color:black"><nobr><b>455</b></nobr>
+<br>2.22%
+												</td><td align="right" style="color:black"><nobr><b>1216</b></nobr>
+<br>1.76%
+												</td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td align="right" style="color:black"><nobr><b>77</b></nobr>
+<br>0.23%
+												</td><td align="right" style="color:black"><nobr><b>34</b></nobr>
+<br>0.25%
+												</td><td align="right" style="color:black"><nobr><b>100</b></nobr>
+<br>0.21%
+												</td><td align="right" style="color:black"><nobr><b>50</b></nobr>
+<br>0.16%
+												</td><td align="right" style="color:black"><nobr><b>44</b></nobr>
+<br>0.19%
+												</td><td align="right" style="color:black"><nobr><b>67</b></nobr>
+<br>0.17%
+												</td><td align="right" style="color:black"><nobr><b>131</b></nobr>
+<br>0.22%
+												</td><td align="right" style="color:black"><nobr><b>180</b></nobr>
+<br>0.23%
+												</td><td align="right" style="color:black"><nobr><b>44</b></nobr>
+<br>0.17%
+												</td><td align="right" style="color:black"><nobr><b>103</b></nobr>
+<br>0.20%
+												</td><td align="right" style="color:black"><nobr><b>48</b></nobr>
+<br>0.29%
+												</td><td align="right" style="color:black"><nobr><b>31</b></nobr>
+<br>0.20%
+												</td><td align="right" style="color:black"><nobr><b>66</b></nobr>
+<br>0.20%
+												</td><td align="right" style="color:black"><nobr><b>117</b></nobr>
+<br>0.39%
+												</td><td align="right" style="color:black"><nobr><b>37</b></nobr>
+<br>0.19%
+												</td><td align="right" style="color:black"><nobr><b>27</b></nobr>
+<br>0.13%
+												</td><td align="right" style="color:black"><nobr><b>40</b></nobr>
+<br>0.26%
+												</td><td align="right" style="color:black"><nobr><b>94</b></nobr>
+<br>0.20%
+												</td><td align="right" style="color:black"><nobr><b>93</b></nobr>
+<br>0.17%
+												</td><td align="right" style="color:black"><nobr><b>153</b></nobr>
+<br>0.17%
+												</td><td align="right" style="color:black"><nobr><b>108</b></nobr>
+<br>0.18%
+												</td><td align="right" style="color:black"><nobr><b>133</b></nobr>
+<br>0.15%
+												</td><td align="right" style="color:black"><nobr><b>43</b></nobr>
+<br>0.23%
+												</td><td align="right" style="color:black"><nobr><b>45</b></nobr>
+<br>0.23%
+												</td><td align="right" style="color:black"><nobr><b>122</b></nobr>
+<br>0.21%
+												</td><td align="right" style="color:black"><nobr><b>43</b></nobr>
+<br>0.21%
+												</td><td align="right" style="color:black"><nobr><b>237</b></nobr>
+<br>0.34%
+												</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td align="right" style="color:black"><nobr><b>101</b></nobr>
+<br>0.30%
+												</td><td align="right" style="color:black"><nobr><b>27</b></nobr>
+<br>0.20%
+												</td><td align="right" style="color:black"><nobr><b>129</b></nobr>
+<br>0.27%
+												</td><td align="right" style="color:black"><nobr><b>77</b></nobr>
+<br>0.25%
+												</td><td align="right" style="color:black"><nobr><b>43</b></nobr>
+<br>0.18%
+												</td><td align="right" style="color:black"><nobr><b>88</b></nobr>
+<br>0.22%
+												</td><td align="right" style="color:black"><nobr><b>151</b></nobr>
+<br>0.25%
+												</td><td align="right" style="color:black"><nobr><b>196</b></nobr>
+<br>0.25%
+												</td><td align="right" style="color:black"><nobr><b>55</b></nobr>
+<br>0.21%
+												</td><td align="right" style="color:black"><nobr><b>100</b></nobr>
+<br>0.19%
+												</td><td align="right" style="color:black"><nobr><b>38</b></nobr>
+<br>0.23%
+												</td><td align="right" style="color:black"><nobr><b>36</b></nobr>
+<br>0.23%
+												</td><td align="right" style="color:black"><nobr><b>57</b></nobr>
+<br>0.17%
+												</td><td align="right" style="color:black"><nobr><b>48</b></nobr>
+<br>0.16%
+												</td><td align="right" style="color:black"><nobr><b>31</b></nobr>
+<br>0.16%
+												</td><td align="right" style="color:black"><nobr><b>26</b></nobr>
+<br>0.13%
+												</td><td align="right" style="color:black"><nobr><b>41</b></nobr>
+<br>0.26%
+												</td><td align="right" style="color:black"><nobr><b>113</b></nobr>
+<br>0.24%
+												</td><td align="right" style="color:black"><nobr><b>195</b></nobr>
+<br>0.36%
+												</td><td align="right" style="color:black"><nobr><b>305</b></nobr>
+<br>0.34%
+												</td><td align="right" style="color:black"><nobr><b>163</b></nobr>
+<br>0.28%
+												</td><td align="right" style="color:black"><nobr><b>201</b></nobr>
+<br>0.23%
+												</td><td align="right" style="color:black"><nobr><b>46</b></nobr>
+<br>0.25%
+												</td><td align="right" style="color:black"><nobr><b>61</b></nobr>
+<br>0.31%
+												</td><td align="right" style="color:black"><nobr><b>135</b></nobr>
+<br>0.23%
+												</td><td align="right" style="color:black"><nobr><b>51</b></nobr>
+<br>0.25%
+												</td><td align="right" style="color:black"><nobr><b>271</b></nobr>
+<br>0.39%
+												</td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td align="right" style="color:black"><nobr><b>200</b></nobr>
+<br>0.60%
+												</td><td align="right" style="color:black"><nobr><b>69</b></nobr>
+<br>0.51%
+												</td><td align="right" style="color:black"><nobr><b>310</b></nobr>
+<br>0.65%
+												</td><td align="right" style="color:black"><nobr><b>191</b></nobr>
+<br>0.62%
+												</td><td align="right" style="color:black"><nobr><b>68</b></nobr>
+<br>0.29%
+												</td><td align="right" style="color:black"><nobr><b>241</b></nobr>
+<br>0.61%
+												</td><td align="right" style="color:black"><nobr><b>276</b></nobr>
+<br>0.46%
+												</td><td align="right" style="color:black"><nobr><b>220</b></nobr>
+<br>0.29%
+												</td><td align="right" style="color:black"><nobr><b>198</b></nobr>
+<br>0.76%
+												</td><td align="right" style="color:black"><nobr><b>248</b></nobr>
+<br>0.47%
+												</td><td align="right" style="color:black"><nobr><b>78</b></nobr>
+<br>0.47%
+												</td><td align="right" style="color:black"><nobr><b>85</b></nobr>
+<br>0.54%
+												</td><td align="right" style="color:black"><nobr><b>184</b></nobr>
+<br>0.55%
+												</td><td align="right" style="color:black"><nobr><b>163</b></nobr>
+<br>0.54%
+												</td><td align="right" style="color:black"><nobr><b>83</b></nobr>
+<br>0.42%
+												</td><td align="right" style="color:black"><nobr><b>85</b></nobr>
+<br>0.42%
+												</td><td align="right" style="color:black"><nobr><b>88</b></nobr>
+<br>0.57%
+												</td><td align="right" style="color:black"><nobr><b>267</b></nobr>
+<br>0.57%
+												</td><td align="right" style="color:black"><nobr><b>199</b></nobr>
+<br>0.37%
+												</td><td align="right" style="color:black"><nobr><b>379</b></nobr>
+<br>0.43%
+												</td><td align="right" style="color:black"><nobr><b>202</b></nobr>
+<br>0.34%
+												</td><td align="right" style="color:black"><nobr><b>385</b></nobr>
+<br>0.43%
+												</td><td align="right" style="color:black"><nobr><b>91</b></nobr>
+<br>0.49%
+												</td><td align="right" style="color:black"><nobr><b>135</b></nobr>
+<br>0.69%
+												</td><td align="right" style="color:black"><nobr><b>208</b></nobr>
+<br>0.36%
+												</td><td align="right" style="color:black"><nobr><b>123</b></nobr>
+<br>0.60%
+												</td><td align="right" style="color:black"><nobr><b>362</b></nobr>
+<br>0.52%
+												</td>
+</tr>
+</table>
+<br></div></td>
+</tr>
+</table>
+
+		</td>
+	</tr>
+</table>
+
+<br/>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26136728-1']);
+  _gaq.push(['_setDomainName', 'izbirkom.ru']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>
