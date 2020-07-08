@@ -1,0 +1,286 @@
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<base href="http://www.vybory.izbirkom.ru/">
+<link href="/css/report.css" rel="stylesheet" type="text/css" />
+<title>Сведения о проводящихся выборах и референдумах</title>
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="0">
+
+<script type="text/javascript">
+	
+	var st1 = null; // переменная, хранящая ссылку на SortableTable, !=null для сортируемых таблиц
+
+	function getXls() {
+		var sortorder = "0";
+		if ((st1 != null)&&(st1.sortDesc != null)) {
+			if (st1.sortDesc) {
+				sortorder = "1";
+			} else {
+				sortorder = "-1";
+			}
+		}
+
+		window.location.assign("http://www.vybory.izbirkom.ru/servlet/ExcelReportVersion?"+
+								"region=0&"+
+								"sub_region=0&"+
+														
+								"global=1&"+
+								"vrn=100100163596966&"+
+								"tvd=100100163598046&"+
+								"type=465&"+
+								"vibid=100100163598046&"+
+								"condition=&"+
+								"action=show&"+
+								"version=null&"+
+								"prver=0&"+
+								"sortorder="+sortorder);
+	}
+	
+</script>
+
+</head>
+
+<body text="#000000" link="#0000ff" vlink="#0000ff" alink="#ff0000" leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" bottommargin="0">
+
+
+<table cellpadding="0" cellspacing="0" width="100%" border="0">
+	<tr>
+		<td align="center" width="100%">
+			
+		</td>
+	</tr>
+</table>
+
+
+		
+
+
+
+
+
+<link href="header/00/00.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="header/00/fonts/PTS75F_stylesheet.css"/>
+
+<div class="ib-header">
+    <div class="ib-header-wrapper">
+        <a class="ib-header-cik" href="http://cikrf.ru">
+            <img src="header/00/header_bg.jpg" alt=""/>
+        </a>
+		<a class="ib-header-link" href="http://www.vybory.izbirkom.ru/region/izbirkom">Выборы, референдумы и иные формы прямого волеизъявления</a>
+		
+    </div>
+</div>
+
+
+
+
+<table width="100%" cellpadding="0" cellspacing="0" height="80%" style="padding-left: 3px; padding-right: 3px;">
+	
+		<tr valign="top" height="20px">
+			<td width="100%" align="center" height="20px" valign="top"><!-- history -->
+				<a href="region/izbirkom?action=show&root_a=null&vrn=100100163596966&region=0&global=1&type=0&prver=0&pronetvd=null">ЦИК России</a> &gt; <a href="region/izbirkom?action=show&root_a=null&vrn=100100163596966&region=0&global=1&type=0&root=1000037&prver=0&pronetvd=null&tvd=100100163598046">Ивановская область</a>
+			</td>
+		</tr>
+	
+		<tr valign="top" height="20px">
+			<td width="100%" align="center" height="20px" valign="top">
+			
+				<form name="go_reg">Нижестоящие избирательные комиссии:  <select name="gs"><option val="">---</option><option value="http://www.vybory.izbirkom.ru/region/izbirkom?action=show&amp;global=true&amp;root=372000006&amp;tvd=23720001158024&amp;vrn=100100163596966&amp;prver=0&amp;pronetvd=null&amp;region=0&amp;sub_region=0&amp;type=465&amp;vibid=23720001158024">1 Верхнеландеховская</option><option value="http://www.vybory.izbirkom.ru/region/izbirkom?action=show&amp;global=true&amp;root=372000005&amp;tvd=23720001158023&amp;vrn=100100163596966&amp;prver=0&amp;pronetvd=null&amp;region=0&amp;sub_region=0&amp;type=465&amp;vibid=23720001158023">2 Вичугская</option><option value="http://www.vybory.izbirkom.ru/region/izbirkom?action=show&amp;global=true&amp;root=372000004&amp;tvd=23720001158022&amp;vrn=100100163596966&amp;prver=0&amp;pronetvd=null&amp;region=0&amp;sub_region=0&amp;type=465&amp;vibid=23720001158022">3 Вичугская городская</option><option value="http://www.vybory.izbirkom.ru/region/izbirkom?action=show&amp;global=true&amp;root=372000003&amp;tvd=23720001158021&amp;vrn=100100163596966&amp;prver=0&amp;pronetvd=null&amp;region=0&amp;sub_region=0&amp;type=465&amp;vibid=23720001158021">4 Гаврилово-Посадская</option><option value="http://www.vybory.izbirkom.ru/region/izbirkom?action=show&amp;global=true&amp;root=372000002&amp;tvd=23720001158020&amp;vrn=100100163596966&amp;prver=0&amp;pronetvd=null&amp;region=0&amp;sub_region=0&amp;type=465&amp;vibid=23720001158020">5 Заволжская</option><option value="http://www.vybory.izbirkom.ru/region/izbirkom?action=show&amp;global=true&amp;root=372000001&amp;tvd=23720001158019&amp;vrn=100100163596966&amp;prver=0&amp;pronetvd=null&amp;region=0&amp;sub_region=0&amp;type=465&amp;vibid=23720001158019">6 Иваново, Ленинская</option><option value="http://www.vybory.izbirkom.ru/region/izbirkom?action=show&amp;global=true&amp;root=372000007&amp;tvd=23720001158025&amp;vrn=100100163596966&amp;prver=0&amp;pronetvd=null&amp;region=0&amp;sub_region=0&amp;type=465&amp;vibid=23720001158025">7 Иваново, Октябрьская</option><option value="http://www.vybory.izbirkom.ru/region/izbirkom?action=show&amp;global=true&amp;root=372000009&amp;tvd=23720001158027&amp;vrn=100100163596966&amp;prver=0&amp;pronetvd=null&amp;region=0&amp;sub_region=0&amp;type=465&amp;vibid=23720001158027">8 Иваново, Советская</option><option value="http://www.vybory.izbirkom.ru/region/izbirkom?action=show&amp;global=true&amp;root=372000008&amp;tvd=23720001158026&amp;vrn=100100163596966&amp;prver=0&amp;pronetvd=null&amp;region=0&amp;sub_region=0&amp;type=465&amp;vibid=23720001158026">9 Иваново, Фрунзенская</option><option value="http://www.vybory.izbirkom.ru/region/izbirkom?action=show&amp;global=true&amp;root=372000030&amp;tvd=23720001158048&amp;vrn=100100163596966&amp;prver=0&amp;pronetvd=null&amp;region=0&amp;sub_region=0&amp;type=465&amp;vibid=23720001158048">10 Ивановская</option><option value="http://www.vybory.izbirkom.ru/region/izbirkom?action=show&amp;global=true&amp;root=372000029&amp;tvd=23720001158047&amp;vrn=100100163596966&amp;prver=0&amp;pronetvd=null&amp;region=0&amp;sub_region=0&amp;type=465&amp;vibid=23720001158047">11 Ильинская</option><option value="http://www.vybory.izbirkom.ru/region/izbirkom?action=show&amp;global=true&amp;root=372000028&amp;tvd=23720001158046&amp;vrn=100100163596966&amp;prver=0&amp;pronetvd=null&amp;region=0&amp;sub_region=0&amp;type=465&amp;vibid=23720001158046">12 Кинешемская</option><option value="http://www.vybory.izbirkom.ru/region/izbirkom?action=show&amp;global=true&amp;root=372000027&amp;tvd=23720001158045&amp;vrn=100100163596966&amp;prver=0&amp;pronetvd=null&amp;region=0&amp;sub_region=0&amp;type=465&amp;vibid=23720001158045">13 Кинешемская городская</option><option value="http://www.vybory.izbirkom.ru/region/izbirkom?action=show&amp;global=true&amp;root=372000026&amp;tvd=23720001158044&amp;vrn=100100163596966&amp;prver=0&amp;pronetvd=null&amp;region=0&amp;sub_region=0&amp;type=465&amp;vibid=23720001158044">14 Комсомольская</option><option value="http://www.vybory.izbirkom.ru/region/izbirkom?action=show&amp;global=true&amp;root=372000025&amp;tvd=23720001158043&amp;vrn=100100163596966&amp;prver=0&amp;pronetvd=null&amp;region=0&amp;sub_region=0&amp;type=465&amp;vibid=23720001158043">15 Кохомская городская</option><option value="http://www.vybory.izbirkom.ru/region/izbirkom?action=show&amp;global=true&amp;root=372000024&amp;tvd=23720001158042&amp;vrn=100100163596966&amp;prver=0&amp;pronetvd=null&amp;region=0&amp;sub_region=0&amp;type=465&amp;vibid=23720001158042">16 Лежневская</option><option value="http://www.vybory.izbirkom.ru/region/izbirkom?action=show&amp;global=true&amp;root=372000023&amp;tvd=23720001158041&amp;vrn=100100163596966&amp;prver=0&amp;pronetvd=null&amp;region=0&amp;sub_region=0&amp;type=465&amp;vibid=23720001158041">17 Лухская</option><option value="http://www.vybory.izbirkom.ru/region/izbirkom?action=show&amp;global=true&amp;root=372000022&amp;tvd=23720001158040&amp;vrn=100100163596966&amp;prver=0&amp;pronetvd=null&amp;region=0&amp;sub_region=0&amp;type=465&amp;vibid=23720001158040">18 Палехская</option><option value="http://www.vybory.izbirkom.ru/region/izbirkom?action=show&amp;global=true&amp;root=372000021&amp;tvd=23720001158039&amp;vrn=100100163596966&amp;prver=0&amp;pronetvd=null&amp;region=0&amp;sub_region=0&amp;type=465&amp;vibid=23720001158039">19 Пестяковская</option><option value="http://www.vybory.izbirkom.ru/region/izbirkom?action=show&amp;global=true&amp;root=372000020&amp;tvd=23720001158038&amp;vrn=100100163596966&amp;prver=0&amp;pronetvd=null&amp;region=0&amp;sub_region=0&amp;type=465&amp;vibid=23720001158038">20 Приволжская</option><option value="http://www.vybory.izbirkom.ru/region/izbirkom?action=show&amp;global=true&amp;root=372000019&amp;tvd=23720001158037&amp;vrn=100100163596966&amp;prver=0&amp;pronetvd=null&amp;region=0&amp;sub_region=0&amp;type=465&amp;vibid=23720001158037">21 Пучежская</option><option value="http://www.vybory.izbirkom.ru/region/izbirkom?action=show&amp;global=true&amp;root=372000018&amp;tvd=23720001158036&amp;vrn=100100163596966&amp;prver=0&amp;pronetvd=null&amp;region=0&amp;sub_region=0&amp;type=465&amp;vibid=23720001158036">22 Родниковская</option><option value="http://www.vybory.izbirkom.ru/region/izbirkom?action=show&amp;global=true&amp;root=372000017&amp;tvd=23720001158035&amp;vrn=100100163596966&amp;prver=0&amp;pronetvd=null&amp;region=0&amp;sub_region=0&amp;type=465&amp;vibid=23720001158035">23 Савинская</option><option value="http://www.vybory.izbirkom.ru/region/izbirkom?action=show&amp;global=true&amp;root=372000016&amp;tvd=23720001158034&amp;vrn=100100163596966&amp;prver=0&amp;pronetvd=null&amp;region=0&amp;sub_region=0&amp;type=465&amp;vibid=23720001158034">24 Тейковская</option><option value="http://www.vybory.izbirkom.ru/region/izbirkom?action=show&amp;global=true&amp;root=372000015&amp;tvd=23720001158033&amp;vrn=100100163596966&amp;prver=0&amp;pronetvd=null&amp;region=0&amp;sub_region=0&amp;type=465&amp;vibid=23720001158033">25 Тейковская городская</option><option value="http://www.vybory.izbirkom.ru/region/izbirkom?action=show&amp;global=true&amp;root=372000014&amp;tvd=23720001158032&amp;vrn=100100163596966&amp;prver=0&amp;pronetvd=null&amp;region=0&amp;sub_region=0&amp;type=465&amp;vibid=23720001158032">26 Фурмановская</option><option value="http://www.vybory.izbirkom.ru/region/izbirkom?action=show&amp;global=true&amp;root=372000013&amp;tvd=23720001158031&amp;vrn=100100163596966&amp;prver=0&amp;pronetvd=null&amp;region=0&amp;sub_region=0&amp;type=465&amp;vibid=23720001158031">27 Шуйская</option><option value="http://www.vybory.izbirkom.ru/region/izbirkom?action=show&amp;global=true&amp;root=372000012&amp;tvd=23720001158030&amp;vrn=100100163596966&amp;prver=0&amp;pronetvd=null&amp;region=0&amp;sub_region=0&amp;type=465&amp;vibid=23720001158030">28 Шуйская городская</option><option value="http://www.vybory.izbirkom.ru/region/izbirkom?action=show&amp;global=true&amp;root=372000011&amp;tvd=23720001158029&amp;vrn=100100163596966&amp;prver=0&amp;pronetvd=null&amp;region=0&amp;sub_region=0&amp;type=465&amp;vibid=23720001158029">29 Южская</option><option value="http://www.vybory.izbirkom.ru/region/izbirkom?action=show&amp;global=true&amp;root=372000010&amp;tvd=23720001158028&amp;vrn=100100163596966&amp;prver=0&amp;pronetvd=null&amp;region=0&amp;sub_region=0&amp;type=465&amp;vibid=23720001158028">30 Юрьевецкая</option></select>  <input type="Button" name="go" value="Перейти" onClick="if(this.form.gs.value!='' && this.form.gs.value!='---')self.location=this.form.gs.value"></form>
+
+			
+			</td>
+		</tr>
+	
+	<tr valign="top" height="100%">
+		<td valign="top" height="100%">
+			<link href="css/424.css" rel="stylesheet" type="text/css"><script type="text/javascript" src="js/sorter.js"></script><table border="0" cellpadding="3" width="100%" cellspacing="1" bgcolor="white">
+<tr class="w2">
+<td bgcolor="#555555" class="headers" align="center"><b>Сводная таблица итогов голосования</b></td>
+</tr>
+<tr class="w2">
+<td bgcolor="#555555" class="headers" align="center"><b>Общероссийское голосование по вопросу одобрения изменений в Конституцию Российской Федерации</b></td>
+</tr>
+</table><table width="100%">
+<tr>
+<td align="center">
+					Дата голосования:&nbsp; 01.07.2020</td>
+</tr>
+</table><table border="0" cellpadding="5" cellspacing="1" width="100%" bgcolor="ffffff">
+<tr style="padding:0;border-spacing:0;height:2px;">
+<td background="img/e.gif" colspan="2" style="padding:0;border-spacing:0;height:2px;"></td>
+</tr>
+<tr bgcolor="eeeeee">
+<td valign="top" width="45%"><b>Наименование комиссии</b></td><td>Ивановская область</td>
+</tr>
+<tr style="padding:0;border-spacing:0;height:2px;">
+<td background="img/e.gif" colspan="2" style="padding:0;border-spacing:0;height:2px;"></td>
+</tr>
+</table><table border="0" cellpadding="3" width="100%" cellspacing="1" bgcolor="white">
+<tr bgcolor="#FFFFFF">
+<td style="color:black"><font style="color:black">Число территориальных избирательных комиссий -
+		                   		<b>30</b></font>
+<br>
+<font style="color:black">Число территориальных избирательных комиссий, приступивших к передаче сведений -
+		                   		<b>30</b></font>
+<br>
+</td>
+</tr>
+</table><div align="center" style="width:100%; bgcolor:white;overflow:scroll">
+<table style="width:100%;border-color:#000000" vspace="0" cellpadding="0" cellspacing="0" border="1px">
+<tr style="height:100%" valign="top" align="left">
+<td style="height:100%;" valign="top" align="left">
+<table border="0" bgcolor="#ffffff" cellpadding="2" cellspacing="1" align="left" vspace="0">
+<tr bgcolor="#FFFFFF">
+<td style="color:black" align="center" width="200" colspan="2"></td><td style="color:black" align="center"><nobr><b>Сумма</b></nobr></td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td width="5%" style="color:black"><nobr>1</nobr></td><td style="color:black" align="left" width="50"><nobr>Число участников голосования, включенных в список участников голосования на момент окончания голосования</nobr></td><td align="right" style="color:black"><nobr><b>797451</b></nobr></td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="5%" style="color:black"><nobr>2</nobr></td><td style="color:black" align="left" width="50"><nobr>Число бюллетеней, выданных участникам голосования</nobr></td><td align="right" style="color:black"><nobr><b>512070</b></nobr></td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td width="5%" style="color:black"><nobr>3</nobr></td><td style="color:black" align="left" width="50"><nobr>Число бюллетеней, содержащихся в ящиках для голосования</nobr></td><td align="right" style="color:black"><nobr><b>511959</b></nobr></td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="5%" style="color:black"><nobr>4</nobr></td><td style="color:black" align="left" width="50"><nobr>Число недействительных бюллетеней</nobr></td><td align="right" style="color:black"><nobr><b>3857</b></nobr></td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td width="5%" style="color:black"></td><td style="color:black;font-family: Verdana, Arial; font-size: 8pt; color: #4E5882;" align="left" width="50"><nobr><b>Вы одобряете изменения в Конституцию Российской Федерации?</b></nobr></td><td></td>
+</tr>
+<tr>
+<td width="5%" style="color:black"><nobr>5</nobr></td><td style="color:black">ДА</td><td style="color:black" align="right"><b>390256</b>
+<br>76,23%</td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td width="5%" style="color:black"><nobr>6</nobr></td><td style="color:black">НЕТ</td><td style="color:black" align="right"><b>117846</b>
+<br>23,02%</td>
+</tr>
+</table>
+</td><td width="90%"><div style="width:100%; bgcolor:white;overflow:scroll"><table border="0" bgcolor="#ffffff" cellpadding="2" cellspacing="1" style="width:100%;overflow:scroll" vspace="0" align="left">
+<tr bgcolor="#FFFFFF" valign="top">
+<td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&amp;tvd=100100163598046&amp;vrn=100100163596966&amp;region=0&amp;global=1&amp;sub_region=0&amp;prver=0&amp;pronetvd=null&amp;vibid=23720001158024&amp;type=465">Верхнеландеховская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&amp;tvd=100100163598046&amp;vrn=100100163596966&amp;region=0&amp;global=1&amp;sub_region=0&amp;prver=0&amp;pronetvd=null&amp;vibid=23720001158023&amp;type=465">Вичугская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&amp;tvd=100100163598046&amp;vrn=100100163596966&amp;region=0&amp;global=1&amp;sub_region=0&amp;prver=0&amp;pronetvd=null&amp;vibid=23720001158022&amp;type=465">Вичугская городская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&amp;tvd=100100163598046&amp;vrn=100100163596966&amp;region=0&amp;global=1&amp;sub_region=0&amp;prver=0&amp;pronetvd=null&amp;vibid=23720001158021&amp;type=465">Гаврилово-Посадская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&amp;tvd=100100163598046&amp;vrn=100100163596966&amp;region=0&amp;global=1&amp;sub_region=0&amp;prver=0&amp;pronetvd=null&amp;vibid=23720001158020&amp;type=465">Заволжская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&amp;tvd=100100163598046&amp;vrn=100100163596966&amp;region=0&amp;global=1&amp;sub_region=0&amp;prver=0&amp;pronetvd=null&amp;vibid=23720001158019&amp;type=465">Иваново, Ленинская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&amp;tvd=100100163598046&amp;vrn=100100163596966&amp;region=0&amp;global=1&amp;sub_region=0&amp;prver=0&amp;pronetvd=null&amp;vibid=23720001158025&amp;type=465">Иваново, Октябрьская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&amp;tvd=100100163598046&amp;vrn=100100163596966&amp;region=0&amp;global=1&amp;sub_region=0&amp;prver=0&amp;pronetvd=null&amp;vibid=23720001158027&amp;type=465">Иваново, Советская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&amp;tvd=100100163598046&amp;vrn=100100163596966&amp;region=0&amp;global=1&amp;sub_region=0&amp;prver=0&amp;pronetvd=null&amp;vibid=23720001158026&amp;type=465">Иваново, Фрунзенская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&amp;tvd=100100163598046&amp;vrn=100100163596966&amp;region=0&amp;global=1&amp;sub_region=0&amp;prver=0&amp;pronetvd=null&amp;vibid=23720001158048&amp;type=465">Ивановская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&amp;tvd=100100163598046&amp;vrn=100100163596966&amp;region=0&amp;global=1&amp;sub_region=0&amp;prver=0&amp;pronetvd=null&amp;vibid=23720001158047&amp;type=465">Ильинская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&amp;tvd=100100163598046&amp;vrn=100100163596966&amp;region=0&amp;global=1&amp;sub_region=0&amp;prver=0&amp;pronetvd=null&amp;vibid=23720001158046&amp;type=465">Кинешемская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&amp;tvd=100100163598046&amp;vrn=100100163596966&amp;region=0&amp;global=1&amp;sub_region=0&amp;prver=0&amp;pronetvd=null&amp;vibid=23720001158045&amp;type=465">Кинешемская городская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&amp;tvd=100100163598046&amp;vrn=100100163596966&amp;region=0&amp;global=1&amp;sub_region=0&amp;prver=0&amp;pronetvd=null&amp;vibid=23720001158044&amp;type=465">Комсомольская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&amp;tvd=100100163598046&amp;vrn=100100163596966&amp;region=0&amp;global=1&amp;sub_region=0&amp;prver=0&amp;pronetvd=null&amp;vibid=23720001158043&amp;type=465">Кохомская городская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&amp;tvd=100100163598046&amp;vrn=100100163596966&amp;region=0&amp;global=1&amp;sub_region=0&amp;prver=0&amp;pronetvd=null&amp;vibid=23720001158042&amp;type=465">Лежневская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&amp;tvd=100100163598046&amp;vrn=100100163596966&amp;region=0&amp;global=1&amp;sub_region=0&amp;prver=0&amp;pronetvd=null&amp;vibid=23720001158041&amp;type=465">Лухская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&amp;tvd=100100163598046&amp;vrn=100100163596966&amp;region=0&amp;global=1&amp;sub_region=0&amp;prver=0&amp;pronetvd=null&amp;vibid=23720001158040&amp;type=465">Палехская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&amp;tvd=100100163598046&amp;vrn=100100163596966&amp;region=0&amp;global=1&amp;sub_region=0&amp;prver=0&amp;pronetvd=null&amp;vibid=23720001158039&amp;type=465">Пестяковская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&amp;tvd=100100163598046&amp;vrn=100100163596966&amp;region=0&amp;global=1&amp;sub_region=0&amp;prver=0&amp;pronetvd=null&amp;vibid=23720001158038&amp;type=465">Приволжская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&amp;tvd=100100163598046&amp;vrn=100100163596966&amp;region=0&amp;global=1&amp;sub_region=0&amp;prver=0&amp;pronetvd=null&amp;vibid=23720001158037&amp;type=465">Пучежская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&amp;tvd=100100163598046&amp;vrn=100100163596966&amp;region=0&amp;global=1&amp;sub_region=0&amp;prver=0&amp;pronetvd=null&amp;vibid=23720001158036&amp;type=465">Родниковская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&amp;tvd=100100163598046&amp;vrn=100100163596966&amp;region=0&amp;global=1&amp;sub_region=0&amp;prver=0&amp;pronetvd=null&amp;vibid=23720001158035&amp;type=465">Савинская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&amp;tvd=100100163598046&amp;vrn=100100163596966&amp;region=0&amp;global=1&amp;sub_region=0&amp;prver=0&amp;pronetvd=null&amp;vibid=23720001158034&amp;type=465">Тейковская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&amp;tvd=100100163598046&amp;vrn=100100163596966&amp;region=0&amp;global=1&amp;sub_region=0&amp;prver=0&amp;pronetvd=null&amp;vibid=23720001158033&amp;type=465">Тейковская городская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&amp;tvd=100100163598046&amp;vrn=100100163596966&amp;region=0&amp;global=1&amp;sub_region=0&amp;prver=0&amp;pronetvd=null&amp;vibid=23720001158032&amp;type=465">Фурмановская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&amp;tvd=100100163598046&amp;vrn=100100163596966&amp;region=0&amp;global=1&amp;sub_region=0&amp;prver=0&amp;pronetvd=null&amp;vibid=23720001158031&amp;type=465">Шуйская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&amp;tvd=100100163598046&amp;vrn=100100163596966&amp;region=0&amp;global=1&amp;sub_region=0&amp;prver=0&amp;pronetvd=null&amp;vibid=23720001158030&amp;type=465">Шуйская городская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&amp;tvd=100100163598046&amp;vrn=100100163596966&amp;region=0&amp;global=1&amp;sub_region=0&amp;prver=0&amp;pronetvd=null&amp;vibid=23720001158029&amp;type=465">Южская</a></nobr></td><td style="color:black" align="center"><nobr><a style="text-decoration: none" href="http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&amp;tvd=100100163598046&amp;vrn=100100163596966&amp;region=0&amp;global=1&amp;sub_region=0&amp;prver=0&amp;pronetvd=null&amp;vibid=23720001158028&amp;type=465">Юрьевецкая</a></nobr></td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td style="color:black" align="right"><nobr><b>3471</b></nobr></td><td style="color:black" align="right"><nobr><b>13503</b></nobr></td><td style="color:black" align="right"><nobr><b>29000</b></nobr></td><td style="color:black" align="right"><nobr><b>12907</b></nobr></td><td style="color:black" align="right"><nobr><b>13683</b></nobr></td><td style="color:black" align="right"><nobr><b>111734</b></nobr></td><td style="color:black" align="right"><nobr><b>67396</b></nobr></td><td style="color:black" align="right"><nobr><b>47167</b></nobr></td><td style="color:black" align="right"><nobr><b>85710</b></nobr></td><td style="color:black" align="right"><nobr><b>29940</b></nobr></td><td style="color:black" align="right"><nobr><b>6815</b></nobr></td><td style="color:black" align="right"><nobr><b>16937</b></nobr></td><td style="color:black" align="right"><nobr><b>65591</b></nobr></td><td style="color:black" align="right"><nobr><b>14823</b></nobr></td><td style="color:black" align="right"><nobr><b>23344</b></nobr></td><td style="color:black" align="right"><nobr><b>14307</b></nobr></td><td style="color:black" align="right"><nobr><b>4990</b></nobr></td><td style="color:black" align="right"><nobr><b>8371</b></nobr></td><td style="color:black" align="right"><nobr><b>4777</b></nobr></td><td style="color:black" align="right"><nobr><b>18988</b></nobr></td><td style="color:black" align="right"><nobr><b>10635</b></nobr></td><td style="color:black" align="right"><nobr><b>27019</b></nobr></td><td style="color:black" align="right"><nobr><b>8074</b></nobr></td><td style="color:black" align="right"><nobr><b>9490</b></nobr></td><td style="color:black" align="right"><nobr><b>27325</b></nobr></td><td style="color:black" align="right"><nobr><b>33936</b></nobr></td><td style="color:black" align="right"><nobr><b>14081</b></nobr></td><td style="color:black" align="right"><nobr><b>46272</b></nobr></td><td style="color:black" align="right"><nobr><b>15334</b></nobr></td><td style="color:black" align="right"><nobr><b>11831</b></nobr></td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td style="color:black" align="right"><nobr><b>3041</b></nobr></td><td style="color:black" align="right"><nobr><b>8687</b></nobr></td><td style="color:black" align="right"><nobr><b>19917</b></nobr></td><td style="color:black" align="right"><nobr><b>10687</b></nobr></td><td style="color:black" align="right"><nobr><b>5790</b></nobr></td><td style="color:black" align="right"><nobr><b>61953</b></nobr></td><td style="color:black" align="right"><nobr><b>34035</b></nobr></td><td style="color:black" align="right"><nobr><b>26799</b></nobr></td><td style="color:black" align="right"><nobr><b>49560</b></nobr></td><td style="color:black" align="right"><nobr><b>24699</b></nobr></td><td style="color:black" align="right"><nobr><b>4157</b></nobr></td><td style="color:black" align="right"><nobr><b>10546</b></nobr></td><td style="color:black" align="right"><nobr><b>43391</b></nobr></td><td style="color:black" align="right"><nobr><b>12420</b></nobr></td><td style="color:black" align="right"><nobr><b>16515</b></nobr></td><td style="color:black" align="right"><nobr><b>12011</b></nobr></td><td style="color:black" align="right"><nobr><b>4120</b></nobr></td><td style="color:black" align="right"><nobr><b>5230</b></nobr></td><td style="color:black" align="right"><nobr><b>2994</b></nobr></td><td style="color:black" align="right"><nobr><b>13064</b></nobr></td><td style="color:black" align="right"><nobr><b>7554</b></nobr></td><td style="color:black" align="right"><nobr><b>22802</b></nobr></td><td style="color:black" align="right"><nobr><b>5039</b></nobr></td><td style="color:black" align="right"><nobr><b>7223</b></nobr></td><td style="color:black" align="right"><nobr><b>18045</b></nobr></td><td style="color:black" align="right"><nobr><b>23171</b></nobr></td><td style="color:black" align="right"><nobr><b>10501</b></nobr></td><td style="color:black" align="right"><nobr><b>28842</b></nobr></td><td style="color:black" align="right"><nobr><b>11857</b></nobr></td><td style="color:black" align="right"><nobr><b>7420</b></nobr></td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td style="color:black" align="right"><nobr><b>3041</b></nobr></td><td style="color:black" align="right"><nobr><b>8687</b></nobr></td><td style="color:black" align="right"><nobr><b>19916</b></nobr></td><td style="color:black" align="right"><nobr><b>10687</b></nobr></td><td style="color:black" align="right"><nobr><b>5790</b></nobr></td><td style="color:black" align="right"><nobr><b>61934</b></nobr></td><td style="color:black" align="right"><nobr><b>34016</b></nobr></td><td style="color:black" align="right"><nobr><b>26779</b></nobr></td><td style="color:black" align="right"><nobr><b>49525</b></nobr></td><td style="color:black" align="right"><nobr><b>24699</b></nobr></td><td style="color:black" align="right"><nobr><b>4157</b></nobr></td><td style="color:black" align="right"><nobr><b>10546</b></nobr></td><td style="color:black" align="right"><nobr><b>43386</b></nobr></td><td style="color:black" align="right"><nobr><b>12420</b></nobr></td><td style="color:black" align="right"><nobr><b>16513</b></nobr></td><td style="color:black" align="right"><nobr><b>12011</b></nobr></td><td style="color:black" align="right"><nobr><b>4120</b></nobr></td><td style="color:black" align="right"><nobr><b>5229</b></nobr></td><td style="color:black" align="right"><nobr><b>2994</b></nobr></td><td style="color:black" align="right"><nobr><b>13064</b></nobr></td><td style="color:black" align="right"><nobr><b>7554</b></nobr></td><td style="color:black" align="right"><nobr><b>22802</b></nobr></td><td style="color:black" align="right"><nobr><b>5039</b></nobr></td><td style="color:black" align="right"><nobr><b>7222</b></nobr></td><td style="color:black" align="right"><nobr><b>18045</b></nobr></td><td style="color:black" align="right"><nobr><b>23171</b></nobr></td><td style="color:black" align="right"><nobr><b>10501</b></nobr></td><td style="color:black" align="right"><nobr><b>28834</b></nobr></td><td style="color:black" align="right"><nobr><b>11857</b></nobr></td><td style="color:black" align="right"><nobr><b>7420</b></nobr></td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td style="color:black" align="right"><nobr><b>4</b></nobr></td><td style="color:black" align="right"><nobr><b>82</b></nobr></td><td style="color:black" align="right"><nobr><b>264</b></nobr></td><td style="color:black" align="right"><nobr><b>46</b></nobr></td><td style="color:black" align="right"><nobr><b>31</b></nobr></td><td style="color:black" align="right"><nobr><b>502</b></nobr></td><td style="color:black" align="right"><nobr><b>278</b></nobr></td><td style="color:black" align="right"><nobr><b>202</b></nobr></td><td style="color:black" align="right"><nobr><b>357</b></nobr></td><td style="color:black" align="right"><nobr><b>184</b></nobr></td><td style="color:black" align="right"><nobr><b>24</b></nobr></td><td style="color:black" align="right"><nobr><b>92</b></nobr></td><td style="color:black" align="right"><nobr><b>379</b></nobr></td><td style="color:black" align="right"><nobr><b>36</b></nobr></td><td style="color:black" align="right"><nobr><b>56</b></nobr></td><td style="color:black" align="right"><nobr><b>40</b></nobr></td><td style="color:black" align="right"><nobr><b>45</b></nobr></td><td style="color:black" align="right"><nobr><b>48</b></nobr></td><td style="color:black" align="right"><nobr><b>27</b></nobr></td><td style="color:black" align="right"><nobr><b>74</b></nobr></td><td style="color:black" align="right"><nobr><b>53</b></nobr></td><td style="color:black" align="right"><nobr><b>44</b></nobr></td><td style="color:black" align="right"><nobr><b>31</b></nobr></td><td style="color:black" align="right"><nobr><b>66</b></nobr></td><td style="color:black" align="right"><nobr><b>121</b></nobr></td><td style="color:black" align="right"><nobr><b>270</b></nobr></td><td style="color:black" align="right"><nobr><b>18</b></nobr></td><td style="color:black" align="right"><nobr><b>353</b></nobr></td><td style="color:black" align="right"><nobr><b>92</b></nobr></td><td style="color:black" align="right"><nobr><b>38</b></nobr></td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td colspan="31">&#8203;  
+									
+									</td>
+</tr>
+<tr>
+<td style="color:black" align="right"><nobr><b>2534</b>
+<br>83,33%</nobr></td><td style="color:black" align="right"><nobr><b>5839</b>
+<br>67,22%</nobr></td><td style="color:black" align="right"><nobr><b>15241</b>
+<br>76,53%</nobr></td><td style="color:black" align="right"><nobr><b>8788</b>
+<br>82,23%</nobr></td><td style="color:black" align="right"><nobr><b>4103</b>
+<br>70,86%</nobr></td><td style="color:black" align="right"><nobr><b>45166</b>
+<br>72,93%</nobr></td><td style="color:black" align="right"><nobr><b>23584</b>
+<br>69,33%</nobr></td><td style="color:black" align="right"><nobr><b>19531</b>
+<br>72,93%</nobr></td><td style="color:black" align="right"><nobr><b>35610</b>
+<br>71,9%</nobr></td><td style="color:black" align="right"><nobr><b>20746</b>
+<br>83,99%</nobr></td><td style="color:black" align="right"><nobr><b>3165</b>
+<br>76,14%</nobr></td><td style="color:black" align="right"><nobr><b>7411</b>
+<br>70,27%</nobr></td><td style="color:black" align="right"><nobr><b>34496</b>
+<br>79,51%</nobr></td><td style="color:black" align="right"><nobr><b>10244</b>
+<br>82,48%</nobr></td><td style="color:black" align="right"><nobr><b>13208</b>
+<br>79,99%</nobr></td><td style="color:black" align="right"><nobr><b>10234</b>
+<br>85,21%</nobr></td><td style="color:black" align="right"><nobr><b>3203</b>
+<br>77,74%</nobr></td><td style="color:black" align="right"><nobr><b>3661</b>
+<br>70,01%</nobr></td><td style="color:black" align="right"><nobr><b>2162</b>
+<br>72,21%</nobr></td><td style="color:black" align="right"><nobr><b>10307</b>
+<br>78,9%</nobr></td><td style="color:black" align="right"><nobr><b>5457</b>
+<br>72,24%</nobr></td><td style="color:black" align="right"><nobr><b>19001</b>
+<br>83,33%</nobr></td><td style="color:black" align="right"><nobr><b>3529</b>
+<br>70,03%</nobr></td><td style="color:black" align="right"><nobr><b>5731</b>
+<br>79,35%</nobr></td><td style="color:black" align="right"><nobr><b>14326</b>
+<br>79,39%</nobr></td><td style="color:black" align="right"><nobr><b>18210</b>
+<br>78,59%</nobr></td><td style="color:black" align="right"><nobr><b>8340</b>
+<br>79,42%</nobr></td><td style="color:black" align="right"><nobr><b>21677</b>
+<br>75,18%</nobr></td><td style="color:black" align="right"><nobr><b>9225</b>
+<br>77,8%</nobr></td><td style="color:black" align="right"><nobr><b>5527</b>
+<br>74,49%</nobr></td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td style="color:black" align="right"><nobr><b>503</b>
+<br>16,54%</nobr></td><td style="color:black" align="right"><nobr><b>2766</b>
+<br>31,84%</nobr></td><td style="color:black" align="right"><nobr><b>4411</b>
+<br>22,15%</nobr></td><td style="color:black" align="right"><nobr><b>1853</b>
+<br>17,34%</nobr></td><td style="color:black" align="right"><nobr><b>1656</b>
+<br>28,6%</nobr></td><td style="color:black" align="right"><nobr><b>16266</b>
+<br>26,26%</nobr></td><td style="color:black" align="right"><nobr><b>10154</b>
+<br>29,85%</nobr></td><td style="color:black" align="right"><nobr><b>7046</b>
+<br>26,31%</nobr></td><td style="color:black" align="right"><nobr><b>13558</b>
+<br>27,38%</nobr></td><td style="color:black" align="right"><nobr><b>3769</b>
+<br>15,26%</nobr></td><td style="color:black" align="right"><nobr><b>968</b>
+<br>23,29%</nobr></td><td style="color:black" align="right"><nobr><b>3043</b>
+<br>28,85%</nobr></td><td style="color:black" align="right"><nobr><b>8511</b>
+<br>19,62%</nobr></td><td style="color:black" align="right"><nobr><b>2140</b>
+<br>17,23%</nobr></td><td style="color:black" align="right"><nobr><b>3249</b>
+<br>19,68%</nobr></td><td style="color:black" align="right"><nobr><b>1737</b>
+<br>14,46%</nobr></td><td style="color:black" align="right"><nobr><b>872</b>
+<br>21,17%</nobr></td><td style="color:black" align="right"><nobr><b>1520</b>
+<br>29,07%</nobr></td><td style="color:black" align="right"><nobr><b>805</b>
+<br>26,89%</nobr></td><td style="color:black" align="right"><nobr><b>2683</b>
+<br>20,54%</nobr></td><td style="color:black" align="right"><nobr><b>2044</b>
+<br>27,06%</nobr></td><td style="color:black" align="right"><nobr><b>3757</b>
+<br>16,48%</nobr></td><td style="color:black" align="right"><nobr><b>1479</b>
+<br>29,35%</nobr></td><td style="color:black" align="right"><nobr><b>1425</b>
+<br>19,73%</nobr></td><td style="color:black" align="right"><nobr><b>3598</b>
+<br>19,94%</nobr></td><td style="color:black" align="right"><nobr><b>4691</b>
+<br>20,25%</nobr></td><td style="color:black" align="right"><nobr><b>2143</b>
+<br>20,41%</nobr></td><td style="color:black" align="right"><nobr><b>6804</b>
+<br>23,6%</nobr></td><td style="color:black" align="right"><nobr><b>2540</b>
+<br>21,42%</nobr></td><td style="color:black" align="right"><nobr><b>1855</b>
+<br>25%</nobr></td>
+</tr>
+</table>
+<br></div></td>
+</tr>
+</table>
+</div>
+
+		</td>
+	</tr>
+</table>
+
+<br/>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26136728-1']);
+  _gaq.push(['_setDomainName', 'izbirkom.ru']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>
+
